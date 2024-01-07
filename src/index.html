@@ -4,10 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Julius+Sans+One&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
     <include src="./partials/header.html"></include>
+    <main>
+      <include src="./partials/hero.html"></include>
+      <include src="./partials/about-me.html"></include>
+      <include src="./partials/small-gallery.html"></include>
+    </main>
+    <include src="./partials/footer.html"></include>
+    <button class="btn-up btn-up-hidden" type="button">
+      <svg class="scroll-up-svg" width="24" height="24">
+        <use xlink:href="./images/sprite.svg#icon-caret-small-left"></use>
+      </svg>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   </body>
 </html>

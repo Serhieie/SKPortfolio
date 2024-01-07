@@ -1,0 +1,106 @@
+.pictures-set {
+  margin: 0 auto;
+  user-select: none;
+}
+
+.pictures-set-container {
+  background-image: url('../images/Hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  height: 100vh;
+  padding-top: 280px;
+}
+.hero__title {
+  color: var(--text-color, #010101);
+  text-align: center;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 1.09;
+  letter-spacing: -0.88px;
+  user-select: none;
+}
+
+.hero_title_wrapper {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1px);
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 4px;
+  padding: 14px 24px;
+}
+
+.hero__h1_span {
+  color: var(--brand-color);
+}
+
+.hero__add_text {
+  color: var(--text-color);
+  font-family: 'Julius Sans One', sans-serif;
+  user-select: none;
+
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+
+  width: 100%;
+  max-width: 292px;
+  height: 100%;
+  max-height: 55px;
+
+  margin: 20px auto 32px;
+}
+
+.hero__section {
+  padding: 0;
+  width: 100%;
+}
+
+.container_hero {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__section {
+    padding: 0;
+  }
+
+  .hero__title {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1.6px;
+    user-select: none;
+
+    margin: 0 auto;
+  }
+
+  .hero__add_text {
+    font-size: 14px;
+    line-height: 1.33;
+
+    width: 100%;
+    max-width: 492px;
+    height: 100%;
+    max-height: 55px;
+
+    user-select: none;
+
+    margin: 20px auto 40px;
+  }
+
+  .organic_food_icon {
+    position: absolute;
+    right: 10px;
+    top: -30px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__section {
+    padding: 0;
+  }
+}
