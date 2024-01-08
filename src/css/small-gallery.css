@@ -105,3 +105,7 @@
     padding-bottom: 60px;
   }
 }
+
+.video-preview {
+  object-fit: cover;
+}
