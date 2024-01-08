@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
   const filterItems = document.querySelectorAll('.filter-item');
   const filterButtons = document.querySelectorAll('.nav-buttons');
+  const text = document.querySelector('.categories_text');
 
   function showItems(category) {
+    text.textContent = category;
     filterItems.forEach(item => {
-      if (category === 'All' || item.dataset.category === category) {
+      if (category === 'Всі відео' || item.dataset.category === category) {
         item.classList.add('show');
         item.classList.remove('hide');
       } else {
@@ -18,9 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
     button.addEventListener('click', function () {
       const category = this.dataset.filter;
       showItems(category);
-      AOS.refresh();
     });
   });
 
-  showItems('All');
+  showItems('Всі відео');
 });

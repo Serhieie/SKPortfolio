@@ -86,7 +86,7 @@ body {
 @media screen and (min-width: 375px) {
   .container {
     width: 100%;
-    max-width: 335px;
+    max-width: 704px;
     margin: 0 auto;
     /* width:335px; */
   }

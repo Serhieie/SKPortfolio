@@ -1,11 +1,18 @@
 .video_section_portfolio {
-  padding: 96px 0 100px 0;
+  padding: 110px 0 100px 0;
 }
 
 .video-list {
   display: grid;
   grid-gap: 20px;
   margin: 0 auto;
+}
+
+.categories_text {
+  font-family: 'Bebas Neue', sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
 }
 
 .video-portfolio {
@@ -18,6 +25,8 @@
   transform: scale(1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .video-list-item:focus,
@@ -28,7 +37,7 @@
 }
 
 .video-block-big-text {
-  padding: 32px 16px;
+  padding: 14px 16px;
   border-top: none;
 }
 
@@ -51,18 +60,20 @@
 
   .video-list {
     grid-template-columns: 1fr;
+    padding: 0 6px;
   }
 }
 
 @media screen and (min-width: 421px) and (max-width: 767px) {
   .video-list {
     grid-template-columns: repeat(2, 1fr);
+    padding: 0 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .video_section_portfolio {
-    padding-top: 122px;
+    padding-top: 150px;
   }
 
   .video-list {
@@ -75,6 +86,14 @@
     row-gap: 48px;
   }
   .video_section_portfolio {
-    padding: 88px 0 100px 0;
+    padding: 120px 0 100px 0;
+  }
+
+  .video-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .categories_text {
+    margin-bottom: 30px;
   }
 }

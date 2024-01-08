@@ -74,6 +74,7 @@
   max-width: 375px;
   position: relative;
   overflow: hidden;
+  border-radius: 4px;
 }
 
 .abs-img-med {
