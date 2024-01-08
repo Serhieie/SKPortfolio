@@ -14,7 +14,7 @@
 } */
 
 .pictures-set-container {
-  background-image: url('../images/Hero.png');
+  background-image: url('../images/Hero.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: calc(50% - 1px) top;
