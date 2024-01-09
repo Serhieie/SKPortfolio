@@ -1,4 +1,4 @@
-.video_section_portfolio {
+.video_section_gallery {
   padding: 124px 0 100px 0;
 }
 
@@ -15,7 +15,7 @@
   font-size: 28px;
 }
 
-.video-portfolio {
+.video-gallery {
   width: 100%;
   min-height: 550px;
 }
@@ -42,7 +42,7 @@
   border-top: none;
 }
 
-.portfolio-h3 {
+.gallery-h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -52,10 +52,10 @@
 }
 
 @media screen and (max-width: 420px) {
-  .portfolio-h3 {
+  .gallery-h3 {
     font-size: 16px;
   }
-  .portfolio-small-p {
+  .gallery-small-p {
     font-size: 12px;
   }
 
@@ -73,7 +73,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .video_section_portfolio {
+  .video_section_gallery {
     padding-top: 150px;
   }
 
@@ -86,7 +86,7 @@
   .video-list {
     row-gap: 48px;
   }
-  .video_section_portfolio {
+  .video_section_gallery {
     padding: 120px 0 100px 0;
   }
 
@@ -98,7 +98,7 @@
     margin-bottom: 30px;
   }
 
-  .video-portfolio {
+  .video-gallery {
     width: 100%;
     min-height: 500px;
   }
