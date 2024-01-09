@@ -3,7 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 80px;
+}
+
+.abs-advantages-list {
+  display: none;
 }
 
 .abs-general {
@@ -136,7 +140,6 @@
   .abs-section {
     align-items: center;
     flex-direction: row;
-    padding-top: 60px;
   }
 
   .abs-promotion {
