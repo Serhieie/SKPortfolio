@@ -48,7 +48,10 @@
 
 .products-item .video {
   width: 100%;
+  height: auto;
+  object-fit: cover;
 }
+
 .products-list {
   width: 98%;
   margin: 0 auto;
