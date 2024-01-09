@@ -17,7 +17,7 @@ function applyStyles() {
   elementsToModify.forEach(element => {
     if (windowHeight <= smallScreenHeight) {
       element.classList.add('responsive-styles-for-large');
-    } else {
+    } else if (windowHeight >= smallScreenHeight) {
       element.classList.remove('responsive-styles-for-large');
     }
   });

@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const text = document.querySelector('.categories_text');
 
   function showItems(category) {
-    text.textContent = category;
     if (!text || !category) {
       return;
     }
+    text.textContent = category;
     filterItems.forEach(item => {
       if (category === 'Всі відео' || item.dataset.category === category) {
         item.classList.add('show');
