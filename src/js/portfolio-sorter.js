@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function showItems(category) {
     text.textContent = category;
+    if (!text || !category) {
+      return;
+    }
     filterItems.forEach(item => {
       if (category === 'Всі відео' || item.dataset.category === category) {
         item.classList.add('show');
