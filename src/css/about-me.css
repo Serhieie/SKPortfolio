@@ -140,6 +140,7 @@
   .abs-section {
     align-items: center;
     flex-direction: row;
+    padding-top: 100px;
   }
 
   .abs-promotion {
@@ -147,8 +148,8 @@
   }
 
   .abs-img {
-    width: 536px;
-    height: 540px;
+    width: 436px;
+    height: 440px;
   }
 
   .abs-title {
