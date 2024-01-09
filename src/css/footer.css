@@ -1,7 +1,6 @@
 .footer {
   background-color: var(--brand-color);
-  padding-top: 36px;
-  padding-bottom: 12px;
+  padding: 36px 10px 12px;
   color: var(--hover-btnText);
 }
 

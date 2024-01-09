@@ -17,6 +17,7 @@
 
 .video-portfolio {
   width: 100%;
+  min-height: 550px;
 }
 
 .video-list-item {
@@ -95,5 +96,10 @@
 
   .categories_text {
     margin-bottom: 30px;
+  }
+
+  .video-portfolio {
+    width: 100%;
+    min-height: 500px;
   }
 }

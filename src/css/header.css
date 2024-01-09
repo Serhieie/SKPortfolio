@@ -21,6 +21,7 @@
 .nav_list {
   width: 100%;
   align-items: center;
+  gap: 60px;
 }
 
 .nav_container {
@@ -75,12 +76,12 @@
 @media screen and (max-width: 375px) {
   .header__container {
     width: 100%;
-    max-width: 96%;
+    max-width: 98%;
     margin: 0 auto;
   }
   .header__container_gallery {
     width: 100%;
-    max-width: 96%;
+    max-width: 98%;
     margin: 0 auto;
   }
 }
@@ -119,5 +120,9 @@
 
   .hidden {
     opacity: 0;
+  }
+
+  .nav_list.flex {
+    gap: 50px;
   }
 }
